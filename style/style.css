@@ -1,0 +1,236 @@
+*{
+    clear: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+   /* background-color: green*/
+}
+header{
+    position: relative;
+    display: block;
+    height: auto;    
+}
+.img{
+    display: block;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-family: 'ZopaCyr', Arial;
+   /* border: 1px solid yellow;*/
+}
+.img .besedka {
+    margin: 0 auto;
+    padding: 0;
+}
+.besedka{
+    position: relative;
+    display: block;
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+}
+#span_1{
+    position: absolute;
+    display: block;
+    width: 100%;
+    /*float: left;*/
+    z-index: 2;
+    bottom: 0;
+    margin: 50px auto;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px green, -1px 0 green,
+        -1px 1px green, 1px 0 green,
+        1px -1px green, 0 -1px green,
+        1px 1px green, 0 1px green;
+}
+#logo{
+    position: absolute;
+    width: 15%;
+    display: block;
+    margin:1% 0 0 1%;
+    z-index: 1;
+}
+section{
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    padding: 0;
+}
+.gross{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    background-size: cover
+}
+.about_us, .price, .service, .mangal, .holiday, .comments, .contact-map {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+#span_2 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    /*float: left;*/
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: 'ZopaCyr', Arial;
+    bottom: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px green, -1px 0 green,
+        -1px 1px green, 1px 0 green,
+        1px -1px green, 0 -1px green,
+        1px 1px green, 0 1px green;
+}
+li {
+    list-style-type: none;
+}
+.side-left {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: auto;
+    color: #fff;
+    z-index: 2;
+    top: 0;
+    padding: 50px;
+    font-family: 'ZopaCyr', Arial;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left;
+    text-shadow: 
+        -1px -1px green, -1px 0 green,
+        -1px 1px green, 1px 0 green,
+        1px -1px green, 0 -1px green,
+        1px 1px green, 0 1px green;
+}
+.side-right {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    color: #fff;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    font-family: 'ZopaCyr', Arial;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: right;
+    text-shadow: 
+        -1px -1px green, -1px 0 green,
+        -1px 1px green, 1px 0 green,
+        1px -1px green, 0 -1px green,
+        1px 1px green, 0 1px green;
+}
+#mangal-center {
+    position: absolute;
+    display: block;
+    z-index: 3;
+    bottom: 0;
+    text-align: center;
+    padding: 50px;
+}
+#span_3, #span_4, #span_5 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    /*float: left;*/
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: 'ZopaCyr', Arial;
+    top: 0;
+    padding: 30px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px green, -1px 0 green,
+        -1px 1px green, 1px 0 green,
+        1px -1px green, 0 -1px green,
+        1px 1px green, 0 1px green;
+ }
+.contact-map {
+    background: #25523B;
+    padding-bottom: 40px;
+}
+.contact {
+    display: block;
+    float:left;
+    height: auto;
+    max-width: 400px;
+    width:65%;
+    background: #25523B;
+    text-align:center;
+    margin-top: 100px;
+    padding: 30px;
+}
+.contact p {
+    color: #fff;
+    font-family: 'ZopaCyr', Arial;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+}
+.map {
+  height: 400px;
+  width:60%;
+  background: #25523B;
+  display: inline-block;
+  margin: 130px 50px 0 50px;
+}
+a.zakaz {
+    display: inline-block;
+    color: #fff;
+    font-family: 'ZopaCyr', Arial;
+    text-decoration: none;
+    padding: 20px 50px;
+    outline: none;
+    border-width: 2px 2px;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 5px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+}
+a.zakaz:hover { 
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+
+
+
+#footer{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
