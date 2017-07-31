@@ -153,6 +153,19 @@ li {
     text-align: center;
     padding: 50px;
 }
+.otziv {
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    width: auto;
+    z-index: 1;
+    top: 0;
+    text-align: center;
+    padding: 130px;
+}
+td {
+    width: 250px;
+}
 #span_3, #span_4, #span_5 {
     position: absolute;
     display: block;
